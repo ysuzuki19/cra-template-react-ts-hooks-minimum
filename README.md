@@ -1,5 +1,5 @@
 # cra-template-react-ts-hooks-minimum
-cra template for react typescript hooks.
+cra template for react typescript hooks for me minimum.
 
 # HOW TO USE
 
@@ -7,7 +7,7 @@ cra template for react typescript hooks.
 $ git clone https://github.com/ysuzuki19/cra-template-react-ts-hooks-minimum
 $ npx create-react-app my-app --template file:/pass/to/cra-template-react-ts-hooks-minimum
 ```
-In my case, it doesn't work relative path.
+In my case, it doesn't work `~` in path. so i use `${HOME}` instead of `~`.
 
 # MY SETTING
 add following to `~/.bashrc`
