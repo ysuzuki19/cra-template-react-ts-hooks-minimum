@@ -1,4 +1,5 @@
 {
-  "name": "react-ts-hooks-minimum",
-  "version": "0.1.0"
+  "name": "@ysuzuki19/cra-template-ts-min",
+  "version": "0.0.1",
+  "description": "CRA template for TypeScript Minimum"
 }
