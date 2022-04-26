@@ -1,5 +1,22 @@
 {
   "name": "@ysuzuki19/cra-template-ts-min",
-  "version": "1.0.0",
-  "description": "CRA template for TypeScript Minimum"
+  "version": "1.0.1",
+  "description": "CRA template for TypeScript Minimum",
+  "author": {
+    "name": "ysuzuki19",
+    "url": "https://ysuzuki19.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ysuzuki19/cra-template-react-ts-min.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "typescript",
+    "template",
+    "cra",
+    "create-react-app"
+  ],
+  "private": false
 }
