@@ -11,6 +11,11 @@
       "web-vitals": "*"
     },
     "devDependencies": {
+      "@typescript-eslint/eslint-plugin": "*",
+      "@typescript-eslint/parser": "*",
+      "eslint": "*",
+      "eslint-import-resolver-typescript": "*",
+      "eslint-plugin-import": "*",
       "serve": "*"
     },
     "scripts": {

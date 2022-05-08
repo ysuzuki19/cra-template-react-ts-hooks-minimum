@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const container = document.getElementById('app');
-const root = createRoot(container!);
+const root = createRoot(container as HTMLElement);
 root.render(
   <React.StrictMode>
     <App />
