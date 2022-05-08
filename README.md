@@ -12,7 +12,7 @@ npx create-react-app@latest --template @ysuzuki19/ts-min myapp
 
 ```bash
 # start (with browser open)
-npm run start
+npm start
 
 # start (without browser open)
 npm run dev
