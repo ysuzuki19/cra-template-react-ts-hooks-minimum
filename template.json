@@ -11,23 +11,22 @@
       "web-vitals": "*"
     },
     "devDependencies": {
-      "@typescript-eslint/eslint-plugin": "*",
-      "@typescript-eslint/parser": "*",
       "eslint": "*",
-      "eslint-import-resolver-typescript": "*",
-      "eslint-plugin-import": "*",
+      "@ysuzuki19/eslint-config": "*",
       "serve": "*"
     },
     "scripts": {
       "start": "react-scripts start",
       "dev": "BROWSER=NONE npm start",
       "build": "react-scripts build",
+      "lint": "eslint --ext .tsx,.ts src/",
+      "lint:fix": "eslint --fix --ext .tsx,.ts src/",
       "test": "react-scripts test",
       "eject": "react-scripts eject",
       "serve": "serve -s build"
     },
     "eslintConfig": {
-      "extends": ["react-app", "react-app/jest"]
+      "extends": ["react-app", "react-app/jest", "@ysuzuki19"]
     }
   }
 }
