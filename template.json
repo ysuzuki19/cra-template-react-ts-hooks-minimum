@@ -7,7 +7,7 @@
       "react": "*",
       "react-dom": "*",
       "react-scripts": "*",
-      "typescript": "*",
+      "typescript": "4",
       "web-vitals": "*"
     },
     "devDependencies": {

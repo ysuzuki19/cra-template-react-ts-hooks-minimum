@@ -1,10 +1,7 @@
 import React from 'react';
 
-const App:React.FC = () => {
-  return (
-    <>
-    </>
-  );
+function App(): React.JSX.Element {
+  return <></>;
 }
 
 export default App;
